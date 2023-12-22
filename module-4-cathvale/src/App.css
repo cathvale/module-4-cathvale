@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app-background {
+    @apply bg-orange-200 min-h-screen w-full flex items-center justify-center;
+}
+
+.container {
+    @apply flex w-full justify-center items-center;
+}
